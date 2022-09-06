@@ -1,0 +1,50 @@
+O TypeScript é uma extensão de JavaScript, e essa linguagem suporta let e const. Esses são conceitos relativamente novos para a declaração de variáveis em JS. E let é similar a var em alguns aspectos. Enquanto o let mantém seus resultados dentro do bloco onde a variável foi especificada, o var define uma variável como global ou local para uma função inteira, independente do escopo no qual tenhamos definido o bloco. Já const é uma ampliação de let no qual previne atribuições de um valor a uma variável já declarada (constante).
+As estruturas de decisão são feitas da seguinte forma:
+
+Exemplo: if 
+if (true) 
+{
+    console.log('This will always executed.');
+}
+
+if (false) {
+    console.log('This will never executed.');
+}  .  
+
+Exemplo: if 
+let x: number = 10, y = 20;
+
+if (x < y) 
+{
+    console.log('x is less than y');
+} .
+
+Exemplo: if else
+let let x: number = 10, y = 20;
+
+if (x > y) 
+{
+    console.log('x is greater than y.');
+} 
+else
+{
+    console.log('x is less than or equal to y.'); //This will be executed
+}.
+
+Exemplo: else if
+let x: number = 10, y = 20;
+
+if (x > y) 
+{
+    console.log('x is greater than y.');
+} 
+else if (x < y)
+{
+    console.log('x is less than y.'); //This will be executed
+}
+else if (x == y) 
+{
+    console.log('x is equal to y');
+}
+
+
