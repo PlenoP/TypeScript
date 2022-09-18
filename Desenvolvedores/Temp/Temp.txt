@@ -1,0 +1,15 @@
+var temp:number = console.log('Digite a temperatura do seu procesador em Celsius:');
+
+ 
+if(temp > 60){
+    console.log("Cuidado, temperatura elevada!")
+}
+
+ 
+if(temp < 45){
+    console.log("Temperatura abaixo do ideal.")
+}
+
+if (temp >= 45 && temp <= 60) {
+  console.log("Temperatura ideal.")
+}
